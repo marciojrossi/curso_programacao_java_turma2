@@ -2,7 +2,7 @@ package br.com.dextraining.conta;
 
 
 public class Conta {
-	double valortotal;
+	private double valortotal;
 	public double sacar(double valor) {
 		if ( valor > valortotal) {
 		   System.out.println("Valor Superior ao limite !");}
